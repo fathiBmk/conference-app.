@@ -1,0 +1,19 @@
+
+.friends-card {
+  background: white;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.friend {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.friend span {
+  color: #2563eb;
+}

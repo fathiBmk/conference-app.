@@ -1,0 +1,29 @@
+
+<section class="notifications-card">
+
+  <h2>Mes notifications</h2>
+
+  <p>Nombre : {{ notifications.length }}</p>
+
+  @if (notifications.length > 0) {
+
+    @for (notification of notifications; track notification.id) {
+
+      <div class="notification-item">
+        <p>{{ notification.message }}</p>
+        <small>{{ notification.date }}</small>
+      </div>
+
+    }
+
+    <button (click)="clearNotifications()">
+      Effacer les notifications
+    </button>
+
+  } @else {
+
+    <p>Aucune notification disponible.</p>
+
+  }
+
+</section>

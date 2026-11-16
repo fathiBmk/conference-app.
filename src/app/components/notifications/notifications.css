@@ -1,0 +1,37 @@
+
+.notifications-card {
+  background: white;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notifications-card h2 {
+  color: #174477;
+}
+
+.notification-item {
+  padding: 15px;
+  margin: 10px 0;
+  background: #f4f7fc;
+  border-left: 4px solid #2563eb;
+  border-radius: 5px;
+}
+
+.notification-item p {
+  margin: 5px 0;
+}
+
+.notification-item small {
+  color: #777;
+}
+
+.notifications-card button {
+  background: #174477;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
